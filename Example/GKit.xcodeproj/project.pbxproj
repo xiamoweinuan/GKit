@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		326BE906E1E2EDCE6ED05E4F /* Pods_GKit_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94A9927F9CBF063C4AB53AAF /* Pods_GKit_Tests.framework */; };
+		3BD822782758ECF000514C4F /* cmd.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 3BD822772758ECF000514C4F /* cmd.rtf */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -39,10 +40,11 @@
 /* Begin PBXFileReference section */
 		0D7E5901F8DBE23FE5A8F872 /* Pods-GKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GKit_Tests.release.xcconfig"; path = "Target Support Files/Pods-GKit_Tests/Pods-GKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		19B188EFD58C76697B723592 /* Pods-GKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GKit_Example.debug.xcconfig"; path = "Target Support Files/Pods-GKit_Example/Pods-GKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		1F02A09E76A9233CF78D3B90 /* GKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = GKit.podspec; path = ../GKit.podspec; sourceTree = "<group>"; };
-		31830C2D1D2BFD849203F9D1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		1F02A09E76A9233CF78D3B90 /* GKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = GKit.podspec; path = ../GKit.podspec; sourceTree = "<group>"; };
+		31830C2D1D2BFD849203F9D1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		3BC998D7241CDE1178FD69E0 /* Pods-GKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GKit_Example.release.xcconfig"; path = "Target Support Files/Pods-GKit_Example/Pods-GKit_Example.release.xcconfig"; sourceTree = "<group>"; };
-		54304C150DF80D4D2329D31C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		3BD822772758ECF000514C4F /* cmd.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = cmd.rtf; sourceTree = "<group>"; };
+		54304C150DF80D4D2329D31C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* GKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -181,6 +183,7 @@
 				1F02A09E76A9233CF78D3B90 /* GKit.podspec */,
 				54304C150DF80D4D2329D31C /* README.md */,
 				31830C2D1D2BFD849203F9D1 /* LICENSE */,
+				3BD822772758ECF000514C4F /* cmd.rtf */,
 			);
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
@@ -193,7 +196,6 @@
 				729A13F22176B90DD439FCC0 /* Pods-GKit_Tests.debug.xcconfig */,
 				0D7E5901F8DBE23FE5A8F872 /* Pods-GKit_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +260,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -280,6 +283,7 @@
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
+				3BD822782758ECF000514C4F /* cmd.rtf in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -303,10 +307,12 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-GKit_Example/Pods-GKit_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/GKit/GKit.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -494,11 +500,12 @@
 			baseConfigurationReference = 19B188EFD58C76697B723592 /* Pods-GKit_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GKit/GKit-Prefix.pch";
 				INFOPLIST_FILE = "GKit/GKit-Info.plist";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gaos.com1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				WRAPPER_EXTENSION = app;
@@ -510,11 +517,12 @@
 			baseConfigurationReference = 3BC998D7241CDE1178FD69E0 /* Pods-GKit_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GKit/GKit-Prefix.pch";
 				INFOPLIST_FILE = "GKit/GKit-Info.plist";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gaos.com1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				WRAPPER_EXTENSION = app;
