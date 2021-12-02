@@ -8,6 +8,6 @@ target 'GKit_Example' do
   target 'GKit_Tests' do
     inherit! :search_paths
 
-    
+    pod 'Masonry'
   end
 end

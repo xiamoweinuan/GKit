@@ -21,9 +21,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 
 #pragma clang diagnostic ignored "-Wdeprecated-declarations"
-//这里只适合放简单的函
-//adfs
-//
+
 NS_INLINE BOOL kISEmpty(NSObject *obj){
     
     if (obj==nil) {
