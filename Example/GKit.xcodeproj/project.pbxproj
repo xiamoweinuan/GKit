@@ -40,7 +40,7 @@
 /* Begin PBXFileReference section */
 		0D7E5901F8DBE23FE5A8F872 /* Pods-GKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GKit_Tests.release.xcconfig"; path = "Target Support Files/Pods-GKit_Tests/Pods-GKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		19B188EFD58C76697B723592 /* Pods-GKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GKit_Example.debug.xcconfig"; path = "Target Support Files/Pods-GKit_Example/Pods-GKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		1F02A09E76A9233CF78D3B90 /* GKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = GKit.podspec; path = ../GKit.podspec; sourceTree = "<group>"; };
+		1F02A09E76A9233CF78D3B90 /* GKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = GKit.podspec; path = ../GKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		31830C2D1D2BFD849203F9D1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		3BC998D7241CDE1178FD69E0 /* Pods-GKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GKit_Example.release.xcconfig"; path = "Target Support Files/Pods-GKit_Example/Pods-GKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		3BD822772758ECF000514C4F /* cmd.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = cmd.rtf; sourceTree = "<group>"; };

@@ -1,5 +1,5 @@
 PODS:
-  - GKit (0.0.20):
+  - GKit (0.0.21):
     - Masonry
   - Masonry (1.1.0)
 
@@ -15,7 +15,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  GKit: 94d1fdafc1439241630a8f10a74aabe2edc8f157
+  GKit: ed5fac430e2a37db92dac9fc3059549aa1fcde42
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
 
 PODFILE CHECKSUM: ef0aeef4426476e91f882b8d14b1265e6f8ed3fc
