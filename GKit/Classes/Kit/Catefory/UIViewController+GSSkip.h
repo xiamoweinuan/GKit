@@ -68,8 +68,6 @@ typedef void (^HidesBottomBaAfterBlock)(BOOL isHidesBottomBa);
 -(void)setNavigationItem:(void (^)(ButtonItemCoutum* button))initBlock withBlock:(void (^)(TypeItem type) )block;
 
 
-/** 获取当前VC*/
-- (UIViewController *)getCurrentVC;
 @end
 
 

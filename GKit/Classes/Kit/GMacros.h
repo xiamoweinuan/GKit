@@ -17,8 +17,8 @@
 #define kHeightNavBar 44.0 //导航栏高度
 #define kHeightTop (kHeightStatusBar + kHeightNavBar) //状态栏+导航栏 高度
 #define kHeightTabBar (kHeightStatusBar>20?49+kHeightTabBarXPlus:49)//tabBar高度
-#define kHeightTabBarXPlus (kISIphoneX()? 34:0)     //TabBar iPhoneX多余的高度
-#define kHeightAvailable (kMainScreenWide() -kHeightTop - kHeightTabBar)
+#define kHeightTabBarXPlus (kISIphoneX? 34:0)     //TabBar iPhoneX多余的高度
+#define kHeightAvailable (kMainScreenWide -kHeightTop - kHeightTabBar)
 /**  颜色  */
 #define kWhiteColor       [UIColor whiteColor]
 #define kRedColor         [UIColor redColor]
@@ -36,7 +36,8 @@
 #define kAppDelegate        [UIApplication sharedApplication].delegate  // AppDelegate
 #define kNotificationCenter [NSNotificationCenter defaultCenter] // 通知中心
 #define KPostNotification(name,obj,info) [[NSNotificationCenter defaultCenter]postNotificationName:name object:obj userInfo:info] // 发送通知
-
+#define kNotiObserver(nameStr,selString)  [[NSNotificationCenter defaultCenter]addObserver:self selector:(NSSelectorFromString(selString)) name:nameStr object:nil];// 接收通知
+#define kNotiRemove(nameStr) [[NSNotificationCenter defaultCenter]removeObserver:self name:nameStr object:nil];// 移除通知
 
 #pragma mark ********** 2.自定义高效率的 NSLog ************
 #ifdef DEBUG // 输出日志 (格式: [编译时间] [文件名] [方法名] [行号] [输出内容])
