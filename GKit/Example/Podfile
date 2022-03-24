@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'GKit_Example' do
+  pod 'GKit', :path => '../'
+
+  target 'GKit_Tests' do
+    inherit! :search_paths
+
+    pod 'Masonry'
+  end
+end

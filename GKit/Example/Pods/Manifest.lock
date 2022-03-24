@@ -1,0 +1,24 @@
+PODS:
+  - GKit (0.0.24):
+    - Masonry
+  - Masonry (1.1.0)
+
+DEPENDENCIES:
+  - GKit (from `../`)
+  - Masonry
+
+SPEC REPOS:
+  trunk:
+    - Masonry
+
+EXTERNAL SOURCES:
+  GKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  GKit: cb01224c3f02beee061d8bb009fe80cbbae3529c
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+
+PODFILE CHECKSUM: 2c458c46881fb6d59443de86938ef28d831f6bde
+
+COCOAPODS: 1.11.2
